@@ -1,0 +1,32 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #aaa;
+  gap: 8px;
+  margin: 8px 0;
+}
+.checkbox input {
+  display: none;
+}
+
+.custom-box {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #666;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.checkbox input:checked + .custom-box {
+  border-color: #665dc0;
+  background: #665dc0;
+}
+
+.tick-icon {
+  width: 12px;
+  height: 12px;
+}

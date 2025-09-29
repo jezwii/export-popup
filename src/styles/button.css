@@ -1,0 +1,21 @@
+.export-btn {
+  background: linear-gradient(#444444, #333333);
+  width: 130px;
+  height: 32px;
+  color: #fff;
+  padding: 8px 16px;
+  border-top: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+
+.export-btn:hover {
+  background: #3a3a3a;
+}
+
+.export-btn:active {
+  background: #1f1f1f;
+}

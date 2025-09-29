@@ -9,7 +9,7 @@ export default function PopupHeader({ onClose }) {
       </div>
 
       <button className="close-btn" onClick={onClose}>
-        <img src="/public/x.svg" alt="x-btn" className="x-icon" />
+        <img src="/icons/x.svg" alt="x-btn" className="x-icon" />
       </button>
     </div>
   );

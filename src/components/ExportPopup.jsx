@@ -28,7 +28,7 @@ export default function ExportPop({ onClose }) {
               <div className="export-options">
                 <div className="export-left">
                   <img
-                    src="/public/Vector.svg"
+                    src="/icons/Vector.svg"
                     alt="HTML5"
                     className="export-icon"
                   />
@@ -54,7 +54,7 @@ export default function ExportPop({ onClose }) {
               <div className="export-options">
                 <div className="export-left">
                   <img
-                    src="/public/brand-react-native.svg"
+                    src="/icons/brand-react-native.svg"
                     alt="NextJS"
                     className="export-icon"
                   />

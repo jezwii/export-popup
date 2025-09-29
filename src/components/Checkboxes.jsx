@@ -6,7 +6,7 @@ export default function Checkbox({ label, checked, onChange }) {
       <input type="checkbox" checked={checked} onChange={onChange} />
       <span className="custom-box">
         {checked && (
-          <img src="/public/tick.svg" alt="Checked" className="check-icon" />
+          <img src="/icons/tick.svg" alt="Checked" className="check-icon" />
         )}
       </span>
       {label}
